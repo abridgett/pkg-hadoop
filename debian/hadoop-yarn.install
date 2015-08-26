@@ -1,0 +1,14 @@
+bin/yarn usr/bin
+bin/*container* usr/bin
+sbin/start-yarn.sh usr/sbin
+sbin/stop-yarn.sh usr/sbin
+sbin/yarn-daemon.sh usr/sbin
+sbin/yarn-daemons.sh usr/sbin
+libexec/yarn-config.sh usr/libexec
+share/hadoop/yarn/hadoop* usr/share/hadoop/yarn/
+share/hadoop/yarn/lib usr/share/hadoop/yarn/
+share/hadoop/yarn/test usr/share/hadoop/yarn/
+etc/hadoop/yarn-env.sh
+etc/hadoop/yarn-site.xml 
+etc/hadoop/container-executor.cfg 
+etc/hadoop/capacity-scheduler.xml

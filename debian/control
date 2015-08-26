@@ -1,0 +1,66 @@
+Source: hadoop
+Section: dev
+Priority: optional
+Maintainer: Ubuntu <ubuntu@unknown>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.4
+Homepage: http://hadoop.apache.org
+#Vcs-Git: git://git.debian.org/collab-maint/hadoop.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/hadoop.git;a=summary
+
+Package: hadoop-doc
+Architecture: all
+Description: Hadoop documentation
+ Hadoop documentation
+
+Package: hadoop-native-libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Native libraries for Hadoop
+ Platform specific native libraries for Hadoop
+
+Package: hadoop-source
+Architecture: all
+Description: Hadoop source code
+ Hadoop source code
+
+Package: hadoop-sls
+Architecture: all
+Description: Hadoop scheduler load simulator 
+ Hadoop scheduler load simulator 
+
+Package: hadoop-httpfs
+Architecture: all
+Description: Hadoop HTTP-FS
+ Hadoop HTTP-FS
+
+Package: hadoop-kms
+Architecture: all
+Description: Hadoop key management Server 
+ Hadoop key management Server 
+
+Package: hadoop-yarn
+Architecture: all
+Description: Hadoop YARN resource manager
+ Hadoop YARN resource manager
+
+Package: hadoop-mapreduce
+Architecture: all
+Description: Hadoop map reduce framework
+ Hadoop map reduce framework
+
+Package: hadoop-tools
+Architecture: all
+Description: Hadoop tools
+ Hadoop tool jars
+
+Package: hadoop-hdfs
+Architecture: all
+Description: Hadoop HDFS
+ Hadoop HDFS distributed filesystem
+
+Package: hadoop-common
+Architecture: all
+Description: Hadoop common libraries
+ Hadoop common libraries
+

@@ -1,0 +1,4 @@
+libexec/httpfs-config.sh usr/libexec
+sbin/httpfs.sh usr/sbin
+share/hadoop/httpfs usr/share/hadoop
+etc/hadoop/httpfs*

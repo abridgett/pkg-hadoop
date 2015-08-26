@@ -1,0 +1,4 @@
+libexec/kms-config.sh usr/libexec
+sbin/kms.sh usr/sbin
+share/hadoop/kms usr/share/hadoop
+etc/hadoop/kms*

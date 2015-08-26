@@ -1,0 +1,7 @@
+bin/mapred usr/bin
+sbin/mr-jobhistory-daemon.sh usr/sbin
+libexec/mapred-config.sh usr/libexec
+share/hadoop/mapreduce/hadoop* usr/share/hadoop/mapreduce/
+share/hadoop/mapreduce/lib* usr/share/hadoop/mapreduce/
+etc/hadoop/mapred*sh
+etc/hadoop/mapred*template

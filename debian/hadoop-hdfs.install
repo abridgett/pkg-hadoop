@@ -1,0 +1,15 @@
+bin/hdfs usr/bin/
+sbin/hdfs-config.sh usr/sbin
+sbin/start-dfs.sh usr/sbin
+sbin/stop-dfs.sh usr/sbin
+sbin/refresh-namenodes.sh usr/sbin
+sbin/distribute-exclude.sh usr/sbin
+sbin/start-balancer.sh usr/sbin
+sbin/stop-balancer.sh usr/sbin
+libexec/hdfs-config.sh usr/libexec
+share/hadoop/hdfs/hadoop* usr/share/hadoop/hdfs/
+share/hadoop/hdfs/jdiff usr/share/hadoop/hdfs/
+share/hadoop/hdfs/lib usr/share/hadoop/hdfs/
+share/hadoop/hdfs/templates usr/share/hadoop/hdfs/
+share/hadoop/hdfs/webapps usr/share/hadoop/hdfs/
+etc/hadoop/hdfs*

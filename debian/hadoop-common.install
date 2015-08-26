@@ -1,0 +1,18 @@
+bin/hadoop usr/bin
+bin/rcc usr/bin
+sbin/hadoop-daemon*.sh usr/sbin
+sbin/slaves.sh usr/sbin
+sbin/*all.sh usr/sbin
+sbin/*secure-dns.sh usr/sbin
+include usr/include
+libexec/hadoop-config.sh usr/libexec
+share/hadoop/common/hadoop* usr/share/hadoop/common
+share/hadoop/common/jdiff usr/share/hadoop/common
+share/hadoop/common/lib usr/share/hadoop/common
+share/hadoop/common/templates usr/share/hadoop/common
+etc/hadoop/hadoop-*
+etc/hadoop/*.example
+etc/hadoop/slaves
+etc/hadoop/core-site.xml
+etc/hadoop/configuration.xsl
+etc/hadoop/log4j.properties
