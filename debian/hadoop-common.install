@@ -10,7 +10,9 @@ share/hadoop/common/hadoop* usr/share/hadoop/common
 share/hadoop/common/jdiff usr/share/hadoop/common
 share/hadoop/common/lib usr/share/hadoop/common
 share/hadoop/common/templates usr/share/hadoop/common
-etc/hadoop/hadoop-*
+etc/hadoop/hadoop-*sh
+etc/hadoop/hadoop-*properties
+etc/hadoop/hadoop-*xml
 etc/hadoop/*.example
 etc/hadoop/slaves
 etc/hadoop/core-site.xml

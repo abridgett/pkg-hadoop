@@ -1,3 +1,10 @@
+hadoop (2.7.1-1os1) unstable; urgency=medium
+
+  * tell hadoop where to find Java, config files
+  * move native libs to non-standard place to make hadoop happy
+
+ -- Adrian Bridgett <adrian@opensignal.com>  Thu, 27 Aug 2015 10:50:16 +0000
+
 hadoop (2.7.1-1) unstable; urgency=low
 
   * Initial release

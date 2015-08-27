@@ -106,6 +106,7 @@ else
 fi
 
 export HADOOP_CONF_DIR="${HADOOP_CONF_DIR:-$HADOOP_PREFIX/$DEFAULT_CONF_DIR}"
+export HADOOP_CONF_DIR="/etc/hadoop"
 
 # User can specify hostnames or a file where the hostnames are (not both)
 if [[ ( "$HADOOP_SLAVES" != '' ) && ( "$HADOOP_SLAVE_NAMES" != '' ) ]] ; then
@@ -173,6 +174,14 @@ if [[ -z $JAVA_HOME ]]; then
     else
       export JAVA_HOME=(/Library/Java/Home)
     fi
+  fi
+
+  if [ -d /usr/lib/jvm/default-java ]; then
+    export JAVA_HOME=/usr/lib/jvm/default-java
+  elif [ -d /usr/lib/jvm/jdk-9-oracle-x64 ]; then
+    export JAVA_HOME=/usr/lib/jvm/jdk-9-oracle-x64
+  elif [ -d /usr/lib/jvm/jdk-8-oracle-x64 ]; then
+    export JAVA_HOME=/usr/lib/jvm/jdk-8-oracle-x64
   fi
 
   # Bail if we did not detect it
