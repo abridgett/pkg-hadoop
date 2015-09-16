@@ -1,5 +1,5 @@
-share/hadoop/common/sources usr/share/hadoop/common
-share/hadoop/hdfs/sources usr/share/hadoop/hdfs
-share/hadoop/mapreduce/sources usr/share/hadoop/mapreduce
-share/hadoop/tools/sources usr/share/hadoop/tools
-share/hadoop/yarn/sources usr/share/hadoop/yarn
+share/hadoop/common/sources opt/hadoop/share/hadoop/common
+share/hadoop/hdfs/sources opt/hadoop/share/hadoop/hdfs
+share/hadoop/mapreduce/sources opt/hadoop/share/hadoop/mapreduce
+share/hadoop/tools/sources opt/hadoop/share/hadoop/tools
+share/hadoop/yarn/sources opt/hadoop/share/hadoop/yarn

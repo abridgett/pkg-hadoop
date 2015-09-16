@@ -1,20 +1,20 @@
-bin/hadoop usr/bin
-bin/rcc usr/bin
-sbin/hadoop-daemon*.sh usr/sbin
-sbin/slaves.sh usr/sbin
-sbin/*all.sh usr/sbin
-sbin/*secure-dns.sh usr/sbin
-include usr/include
-libexec/hadoop-config.sh usr/libexec
-share/hadoop/common/hadoop* usr/share/hadoop/common
-share/hadoop/common/jdiff usr/share/hadoop/common
-share/hadoop/common/lib usr/share/hadoop/common
-share/hadoop/common/templates usr/share/hadoop/common
-etc/hadoop/hadoop-*sh
-etc/hadoop/hadoop-*properties
-etc/hadoop/hadoop-*xml
-etc/hadoop/*.example
-etc/hadoop/slaves
-etc/hadoop/core-site.xml
-etc/hadoop/configuration.xsl
-etc/hadoop/log4j.properties
+bin/hadoop opt/hadoop/bin
+bin/rcc opt/hadoop/bin
+sbin/hadoop-daemon*.sh opt/hadoop/sbin
+sbin/slaves.sh opt/hadoop/sbin
+sbin/*all.sh opt/hadoop/sbin
+sbin/*secure-dns.sh opt/hadoop/sbin
+include opt/hadoop/include
+libexec/hadoop-config.sh opt/hadoop/libexec
+share/hadoop/common/hadoop* opt/hadoop/share/hadoop/common
+share/hadoop/common/jdiff opt/hadoop/share/hadoop/common
+share/hadoop/common/lib opt/hadoop/share/hadoop/common
+share/hadoop/common/templates opt/hadoop/share/hadoop/common
+etc/hadoop/hadoop-*sh opt/hadoop/etc/hadoop
+etc/hadoop/hadoop-*properties opt/hadoop/etc/hadoop
+etc/hadoop/hadoop-*xml opt/hadoop/etc/hadoop
+etc/hadoop/*.example opt/hadoop/etc/hadoop
+etc/hadoop/slaves opt/hadoop/etc/hadoop
+etc/hadoop/core-site.xml opt/hadoop/etc/hadoop
+etc/hadoop/configuration.xsl opt/hadoop/etc/hadoop
+etc/hadoop/log4j.properties opt/hadoop/etc/hadoop

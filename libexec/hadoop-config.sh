@@ -106,7 +106,7 @@ else
 fi
 
 export HADOOP_CONF_DIR="${HADOOP_CONF_DIR:-$HADOOP_PREFIX/$DEFAULT_CONF_DIR}"
-export HADOOP_CONF_DIR="/etc/hadoop"
+export HADOOP_CONF_DIR="/opt/hadoop/etc/hadoop"
 
 # User can specify hostnames or a file where the hostnames are (not both)
 if [[ ( "$HADOOP_SLAVES" != '' ) && ( "$HADOOP_SLAVE_NAMES" != '' ) ]] ; then

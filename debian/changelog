@@ -1,3 +1,9 @@
+hadoop (2.7.1-1os2) unstable; urgency=medium
+
+  * move to /opt/hadoop to avoid CDH conflict
+
+ -- Adrian Bridgett <adrian@opensignal.com>  Wed, 09 Sep 2015 08:45:32 +0000
+
 hadoop (2.7.1-1os1) unstable; urgency=medium
 
   * tell hadoop where to find Java, config files
